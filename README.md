@@ -1,8 +1,8 @@
-# 🗓️ Weekly Leave Report Script
+# Weekly Leave Report Script
 
 This script generates a **weekly report of planned remote work and employee absences** in the company. The report is formatted as an HTML table and is automatically sent via email to all active employees with a valid email address.
 
-## 🧩 Context
+## Context
 
 In the target company, we distinguish between two main types of time off:
 - **Remote Work** (e.g., home office)
@@ -12,7 +12,7 @@ Additionally, in our Odoo environment, it is possible to take **a half day off**
 
 ---
 
-## 📋 How to Use
+## How to Use
 
 To activate the script in Odoo:
 
@@ -35,7 +35,7 @@ To activate the script in Odoo:
 
 ---
 
-## 📨 What Does the Email Include?
+## What Does the Email Include?
 
 - A table listing employees and their time off status for each weekday (Mon–Fri)
 - Color-coded indicators:
@@ -46,7 +46,7 @@ To activate the script in Odoo:
 
 ---
 
-## 🖼️ Appearance of the Report
+## Appearance of the Report
 
 Below is an example of the generated report sent via email:
 
@@ -54,7 +54,7 @@ Below is an example of the generated report sent via email:
 
 ---
 
-## 🧪 Technical Information
+## Technical Information
 
 - Script tested in **Odoo 17 SaaS**
 - Uses the `hr.leave` model (validated leave requests only)
